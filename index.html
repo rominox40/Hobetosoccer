@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>Hobeto</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-rougebordeaux w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">ACCUEIL</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">L'EQUIPE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NOTRE AVANCE</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">L'EQUIPE</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">NOTRE AVANCE</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center" style="background-image: url('satde.jpg'); background-repeat: no-repeat; background-size: 1500px 1200px; background-position: center;">
+    <img src="logo.png" class="w3-round w3-margin-bottom w3-margin-top" alt="Random Name" style="width:16.5%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white z-index:2 " style="font-size: 21px; position:relative">
+      <p><b>BIENVENUE SUR NOTRE SITE OFFICIEL!</b></p>   
+    </div>
+  </div>
+ 
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">L'EQUIPE</h2>
+    <p class="w3-justify">Hobeto est une équipe participant à la Robot Cup Soccer du lycée Gaston Crampe qui affrontent 8 équipes, notre objectif est avant tout passez un bon moment mais surtout de gagner cette saison de la Robot Cup Soccer, être la meilleure équipe sur le terrain !</p>
+	<p class="w3-opacity"><i>Les Membres de notre Equipe</i></p>
+  <div class="w3-row w3-padding-32">
+    <div class="w3-third">
+      <p>Jordan Flamin--Taverne</p>
+      <p class="w3-opacity"><i>Chef de projet</i></p>
+      <img src="Jordan photo.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+    </div>
+    <div class="w3-third">
+      <p>Wilfred Kieffer</p>
+      <p class="w3-opacity"><i>Ingénieur Conception</i></p>
+      <img src="mouton.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+    </div>
+    <div class="w3-third">
+      <p>Clément Gorrenflos</p>
+      <p class="w3-opacity"><i>Ingénieur Conception</i></p>
+      <img src="clément.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+    </div>
+    <div class="w3-third">
+      <p>Rachel Pinto</p>
+      <p class="w3-opacity"><i>Responsable Communication</i></p>
+      <img src="rachel.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+    </div>
+    <div class="w3-third">
+      <p> </p>
+      <p class="w3-opacity"><i> </i></p>
+    </div>
+    <div class="w3-third">
+      <p>Romain Sintas</p>
+      <p class="w3-opacity"><i>Ingénieur Programmation</i></p>
+      <img src="romain.jpg" class="w3-round-small" alt="Random Name" style="width:60%">
+    </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-vertbasque" id="tour">
+    <div class="w3-container w3-content w3-padding-64 w3-vertbasque" style="max-width:800px">
+      <h2 class="w3-wide w3-center w3-rougebordeaux">Notre Avancé</h2>
+      <p class="w3-opacity w3-center"><i>Vous pouvez admirer notre progression:</i></p><br>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="corner.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Le Corner</b></p>
+            <p>Celui-ci a été modélisé puis imprimé et mit en place</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="robot.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Le robot</b></p>
+            <p>Le robot a été entièrement construit par nos mains ! Nous avons également calibrer ces moteurs</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="bouclier.png" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Le bouclier</b></p>
+            <p>Le bouclier est en cours de modélisation sur SolidWorks</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Nous contacter</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> 40800 Aire sur Adour<br>
+        <i class="fa fa-phone" style="width:30px"></i> 06.33.48.87.06<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> foothobeto@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <p class="w3-medium"><a href="https://www.instagram.com/hobeto.soccer/?hl=fr" target="_blank"><img src="insta.png" style="width:1.5%"></a> Site crée par Hobeto</p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
